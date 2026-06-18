@@ -3,7 +3,7 @@ function SearchBar({ search, setSearch }) {
     <input
       className="search"
       type="text"
-      placeholder="Buscar receita pelo nome..."
+      placeholder="Buscar receita pelo nome."
       value={search}
       onChange={(event) => setSearch(event.target.value)}
     />
